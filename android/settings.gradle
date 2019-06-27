@@ -1,0 +1,7 @@
+rootProject.name = 'carpr'
+include ':react-native-image-crop-picker'
+project(':react-native-image-crop-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-crop-picker/android')
+include ':react-native-network-state'
+project(':react-native-network-state').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-network-state/android')
+
+include ':app'
